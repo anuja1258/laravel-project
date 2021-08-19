@@ -21,3 +21,6 @@ Route::get('/', function () {
 Route::get('aboutme',[AboutmeController::class,'display']);
 
 Route::get('admin/{name}',[AdminController::class,'display']);
+
+// test
+Route::get('admin/{name}',[AdminController::class,'display']);
